@@ -1,4 +1,3 @@
-
 ## Acknowledgments:
 I thank [yvonne-liu](https://www.codewars.com/users/yvonne-liu) for the idea and for the example tests :)
 

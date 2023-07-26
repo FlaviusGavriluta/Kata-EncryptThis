@@ -6,15 +6,26 @@ public class EncryptThis {
             return "";
         }
 
-        String[] words = text.split("\\s+");
-        StringBuilder encryptedMessage = new StringBuilder();
+        String[] words = text.split(" ");
+        StringBuilder result = new StringBuilder();
 
         for (String word : words) {
-            encryptedMessage.append(EncryptWord.encryptWord(word)).append(" ");
+            char firstChar = word.charAt(0);
+            String remainingChars = word.substring(1);
+
+            String ascii = String.valueOf((int) firstChar);
+
+            if (remainingChars.length() >= 2) {
+                char temp = remainingChars.charAt(0);
+                remainingChars = remainingChars.substring(1, remainingChars.length() - 1)
+                        + remainingChars.charAt(remainingChars.length() - 1) + temp;
+            }
+
+            result.append(ascii).append(remainingChars).append(" ");
         }
 
-        // Remove the trailing space and return the encrypted message
-        return encryptedMessage.toString().trim();
+        // Remove the trailing space before returning the result
+        return result.toString().trim();
     }
 }
 

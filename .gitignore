@@ -5,12 +5,9 @@ target/
 
 ### IntelliJ IDEA ###
 .idea/
-.idea_modules/
-.idea
 *.iws
 *.iml
 *.ipr
-gitignore_tested
 
 ### Eclipse ###
 .apt_generated

@@ -10,6 +10,7 @@ target/
 *.iws
 *.iml
 *.ipr
+gitignore_tested
 
 ### Eclipse ###
 .apt_generated

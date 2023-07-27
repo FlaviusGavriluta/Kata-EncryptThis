@@ -14,6 +14,5 @@ public class EncryptThis {
                                 word.length() == 1 ? (int) word.charAt(0) + "" : "")
                 .collect(Collectors.joining(" "));
     }
-   // done.
 }
 

@@ -15,4 +15,3 @@ public class EncryptThis {
                 .collect(Collectors.joining(" "));
     }
 }
-

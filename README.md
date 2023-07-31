@@ -2,7 +2,7 @@
 I thank [yvonne-liu](https://www.codewars.com/users/yvonne-liu) for the idea and for the example tests :)
 
 ## Description:
-Encrypt this!
+[Encrypt this!](https://www.codewars.com/kata/5848565e273af816fb000449/train/java)
 
 You want to create secret messages which can be deciphered by the [Decipher this!](https://www.codewars.com/kata/decipher-this) kata. Here are the conditions:
 
